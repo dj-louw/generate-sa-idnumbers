@@ -24,7 +24,7 @@
 
     // generates a random integer between a min and a max
     function getRndInteger(min, max) {
-      return Math.floor(Math.random() * (max - min) ) + min;
+      return Math.floor(Math.random() * (max+1 - min) ) + min;
     }
 
 
@@ -150,8 +150,7 @@
 
         <h2>More Information</h2>
 
-        <p>See <a href="https://en.wikipedia.org/wiki/National_identification_number#South_Africa">Wikipedia</a> or
-          <a href="http://knowles.co.za/generating-south-african-id-numbers/">this article</a>.
+        <p>See <a href="https://en.wikipedia.org/wiki/National_identification_number#South_Africa">Wikipedia.</a>
         </p>
         <p>
           Read <a href="https://github.com/dj-louw/generate-sa-idnumbers">the code</a>.
